@@ -8,7 +8,6 @@ public class FizzBuzz {
         if (number % 3 == 0) return "Fizz";
         if (number % 5 == 0) return "Buzz";
         if (number % 9 == 0) return "Prod";
-        if (number % 11 == 0) return "Test";
 
         return String.valueOf(number);
     }
